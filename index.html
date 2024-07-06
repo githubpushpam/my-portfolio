@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pushpam Kumar's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .highlight {
+            color: #FFA500;
+            /* Orange color */
+        }
+
+        #btn {
+            border: none;
+            background-color: #FFA500;
+            border-radius: 5px;
+            padding: 5px 15px;
+            font-weight: 500;
+        }
+
+        #btn:hover {
+            background-color: #6e4c0c;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900 text-gray-100">
+    <header class="bg-gradient-to-r from-black to-gray-800 text-white py-8">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl font-extrabold">Pushpam Kumar</h1>
+            <p class="mt-2 text-xl">Electronics and Communication | <span class="highlight">MERN Developer</span></p>
+        </div>
+    </header>
+
+    <nav class="bg-black text-white p-4 shadow-lg sticky top-0 z-50">
+        <ul class="flex justify-center space-x-6">
+            <li><a href="#projects" class="hover:text-yellow-500 ">Projects</a></li>
+            <li><a href="#skills" class="hover:text-yellow-500">Skills</a></li>
+            <li><a href="#coding-profiles" class="hover:text-yellow-500">Coding Profiles</a></li>
+            <li><a href="#about" class="hover:text-yellow-500">About Me</a></li>
+            <li><a href="#contact" class="hover:text-yellow-500">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container mx-auto p-6">
+        <!-- About Me Section -->
+        <section id="about" class="my-12">
+            <h2 class="text-4xl font-bold mb-6 text-center text-orange-500">About Me</h2>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+                <p class="text-lg">My name is Pushpam Kumar, and I am in the final year of pursuing a B.Tech in
+                    Electronics and Communication Engineering from the Indian Institute of Information Technology,
+                    Bhopal. I am passionate about web development and software engineering, with experience in creating
+                    responsive web pages using HTML, CSS, and JavaScript. I have also developed full-stack applications
+                    using Node.js and MongoDB. Additionally, I have solved around 300 DSA problems on platforms like
+                    Coding Ninjas, LeetCode, and GeeksforGeeks. I aim to leverage my skills in a professional setting,
+                    focusing on innovative solutions at the intersection of hardware and software.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="my-12">
+            <h2 class="text-4xl font-bold mb-6 text-center text-orange-500">Skills</h2>
+            <ul class="list-disc list-inside bg-gray-800 p-6 rounded-lg shadow-md">
+                <li class="text-lg list-none"> <span class="text-yellow-500 ">Languages: </span>C/C++, JavaScript,
+                    HTML/CSS
+                </li>
+                <li class="text-lg list-none"> <span class="text-yellow-500 ">Tools: </span>Git/GitHub, Node.js, VS
+                    Code,
+                    Postman</li>
+                <li class="text-lg list-none"><span class="text-yellow-500 ">Databases: </span>MySQL, Firebase, MongoDB
+                </li>
+                <li class="text-lg list-none"><span class="text-yellow-500 ">CS Fundamentals: </span>Data Structure and
+                    algorithm, OOPS, Computer Networks</li>
+                <li class="text-lg list-none"><span class="text-yellow-500 ">Non Technical Skills: </span>Effective
+                    Communication, Leadership, Self-Development, Team Management.</li>
+
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="my-12">
+            <h2 class="text-4xl font-bold mb-6 text-center text-orange-500">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-semibold mb-2">Tic-Tac-Toe Game</h3>
+                    <p class="text-gray-300">It allows two players to take turns and compete in the classic Tic-Tac-Toe
+                        game.</p>
+                    <p class="mt-4 text-sm text-gray-400">Technologies: HTML, CSS, JavaScript, Reactjs</p>
+                    <a href="https://github.com/githubpushpam/Tic-tac-toe-game"
+                        class="text-orange-500  mt-4 inline-block" id="btn">Github</a>
+                    <a href="https://friendly-pothos-6b5751.netlify.app/"
+                        class="text-orange-500 mx-2  mt-4 inline-block" id="btn">Live</a>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-semibold mb-2">QR Code Generator</h3>
+                    <p class="text-gray-300">This web application allows users to generate QR codes dynamically based on
+                        the input provided.Customize the size and background color of the QR codes.</p>
+                    <p class="mt-4 text-sm text-gray-400">Technologies: HTML, CSS, JavaScript, Reactjs</p>
+                    <a href="https://github.com/githubpushpam/qrcode-generator"
+                        class="text-orange-500  mt-4 inline-block" id="btn">Github</a>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-semibold mb-2">E-commerce</h3>
+                    <p class="text-gray-300">I developed a comprehensive e-commerce application features a visually
+                        appealing and user-friendly interface, showcasing products with detailed descriptions and
+                        images, ensuring a seamless shopping experience.</p>
+                    <p class="mt-4 text-sm text-gray-400">Technologies: HTML, CSS, JavaScript, Reactjs</p>
+                    <a href="https://github.com/githubpushpam/E-commerce/tree/main/frontend"
+                        class="text-orange-500 mt-4 inline-block" id="btn">Github</a>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-semibold mb-2">Nokia-3310-snake</h3>
+                    <p class="text-gray-300">
+                        The Nokia-3310 Snake game, recreated using brings nostalgic gameplay to the web. Players control
+                        a growing snake to eat food, avoiding collisions with walls and itself</p>
+                    <p class="mt-4 text-sm text-gray-400">Technologies: HTML, CSS, JavaScript</p>
+                    <a href="https://github.com/githubpushpam/Nokia-3310-snake"
+                        class="text-orange-500  mt-4 inline-block" id="btn">Github</a>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-2xl font-semibold mb-2">Spotify-Clone</h3>
+                    <p class="text-gray-300">I have made a Spotify clone. The clone replicates the look and feel of
+                        Spotify, allowing users to play, and enjoy tracks seamlessly.</p>
+                    <p class="mt-4 text-sm text-gray-400">Technologies: HTML, CSS, JavaScript</p>
+                    <a href="https://github.com/githubpushpam/Spotify-Clone" class="text-orange-500  mt-4 inline-block"
+                        id="btn">Github</a>
+                </div>
+                <!-- Add more projects here -->
+            </div>
+        </section>
+
+
+        <!-- Coding Profiles Section -->
+        <section id="coding-profiles" class="my-12">
+            <h2 class="text-4xl font-bold mb-6 text-center text-orange-500">Coding Profiles</h2>
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-12">
+                <a href="https://www.naukri.com/code360/profile/Pushpamkumar" target="_blank"
+                    class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 text-center">
+                    <img src="https://files.codingninjas.in/cn-logo-dark-9824.svg" alt="Coding Ninjas"
+                        class="mx-auto mb-4 w-16 h-16">
+                    <p class="text-xl font-semibold">Coding Ninjas</p>
+                </a>
+                <a href="https://leetcode.com/u/Pushpam-kumar/" target="_blank"
+                    class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 text-center">
+                    <img src="https://assets.leetcode.com/static_assets/public/icons/favicon-96x96.png" alt="LeetCode"
+                        class="mx-auto mb-4 w-16 h-16">
+                    <p class="text-xl font-semibold">LeetCode</p>
+                </a>
+                <a href="https://www.geeksforgeeks.org/user/pushpamkr122003/" target="_blank"
+                    class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 text-center">
+                    <img src="https://www.geeksforgeeks.org/favicon.ico" alt="GeeksforGeeks"
+                        class="mx-auto mb-4 w-16 h-16">
+                    <p class="text-xl font-semibold">GeeksforGeeks</p>
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="my-12">
+            <h2 class="text-4xl font-bold mb-6 text-center text-orange-500">Contact</h2>
+            <div class="flex flex-col md:flex-row justify-center items-start space-y-6 md:space-y-0 md:space-x-12">
+                <!-- Contact Form -->
+                <form class="bg-gray-800 p-6 rounded-lg shadow-md max-w-lg w-full">
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-400">Name</label>
+                        <input type="text" id="name"
+                            class="w-full border border-gray-700 p-2 rounded bg-gray-900 text-white" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-400">Email</label>
+                        <input type="email" id="email"
+                            class="w-full border border-gray-700 p-2 rounded bg-gray-900 text-white" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="subject" class="block text-gray-400">Subject</label>
+                        <input type="text" id="subject"
+                            class="w-full border border-gray-700 p-2 rounded bg-gray-900 text-white" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-400">Message</label>
+                        <textarea id="message" class="w-full border border-gray-700 p-2 rounded bg-gray-900 text-white"
+                            rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="bg-orange-500 text-white px-4 py-2 rounded" id="btn">Send</button>
+                </form>
+
+
+            </div>
+        </section>
+    </main>
+   
+
+    <footer class="bg-gradient-to-r from-gray-800 to-black text-white py-6 text-center">
+        &copy; 2024 Pushpam Kumar
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #3a3f44;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header h1 {
+    margin: 0.5rem 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* Main content styles */
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #3a3f44;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.project, .skill, .contact-info {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.project h3, .skill h3 {
+    font-size: 1.5rem;
+    color: #3a3f44;
+}
+
+.project p, .skill p, .contact-info p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Skills section styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #e2e2e2;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* Footer styles */
+footer {
+    background-color: #3a3f44;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .project h3, .skill h3 {
+        font-size: 1.2rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
